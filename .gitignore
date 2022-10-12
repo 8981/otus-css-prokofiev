@@ -1,0 +1,5 @@
+/img
+/dist
+logs
+*.log
+.vscode/
