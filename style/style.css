@@ -1,15 +1,16 @@
 @font-face {
     font-family: "Butler";
+    font-style: normal;
+    font-weight: 400;
     src: local("Butler Bold"),
         local("Butler-Bold"),
-        url("Bulter_Bold.otf") format("otf");
-    font-style: normal;
+        url("Butler-Bold.woff2") format("woff2"),
+        url("Butler-Bold.woff") format("woff"),
+        url("Butler_Bold.otf") format("otf");
 }
 
 body {
-    font-family: "Butler", sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-family: "Butler", "Arial", "Times New Roman", sans-serif;
     line-height: 1.2em;
     color: #000;
 }
