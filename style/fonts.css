@@ -22,17 +22,6 @@
 
 @font-face {
     font-family: "Butler";
-    font-weight: 400;
-    src: local("Butler Regular"),
-        local("Butler-Regular"),
-        local("Butler_Regular"),
-        url("Butler-Regular.woff2") format("woff2"),
-        url("Butler-Regular.woff") format("woff"),
-        url("Butler_Regular.otf") format("otf");
-}
-
-@font-face {
-    font-family: "Butler";
     font-weight: 500;
     src: local("Butler Medium"),
         local("Butler-Medium"),

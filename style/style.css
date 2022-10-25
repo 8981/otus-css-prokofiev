@@ -1,12 +1,12 @@
 :root {
     font-size: 16px;
+    line-height: 1.2;
 }
 
 body {
     font-family: "Butler", Georgia, 'Times New Roman', Times, serif;
-    font-size: 400;
+    font-size: 700;
     font-size: 1rem;
-    line-height: 1.2;
     color: #000;
 }
 
@@ -18,7 +18,7 @@ h2 {
 blockquote {
     font-family: "Butler", sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .Mils-info {
