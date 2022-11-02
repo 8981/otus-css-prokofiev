@@ -31,3 +31,35 @@ blockquote {
     font-weight: 700;
 }
 
+.navigation {
+    position: absolute;
+    top: 53;
+    left: 703;
+}
+
+.section-one {
+    position: relative;
+    top: 135px;
+    left: 187px;
+
+}
+
+.mod-studio {
+    position: absolute;
+    top: 272px;
+    left: 441px;
+    background-color: #FFFF;
+}
+
+.section_biography {
+    position: relative;
+    top: 268px;
+    left: 134px;
+}
+
+.biography-subtext {
+    position: absolute;
+    top: 268px;
+    left: 800px;
+}
+
