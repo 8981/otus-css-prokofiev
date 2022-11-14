@@ -3,11 +3,36 @@
     line-height: 1.2;
 }
 
+/*Временно, чтоб не мешали пока*/
+.invisible {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 body {
     font-family: "Butler", Georgia, 'Times New Roman', Times, serif;
-    font-size: 700;
+    font-weight: 700;
     font-size: 1rem;
     color: #000;
+    background-color: #FFFF;
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 1200px;
 }
 
 h2 {
@@ -31,35 +56,12 @@ blockquote {
     font-weight: 700;
 }
 
-.navigation {
+.hero_page_content {
     position: absolute;
-    top: 53;
-    left: 703;
-}
-
-.section-one {
-    position: relative;
-    top: 135px;
-    left: 187px;
-
 }
 
 .mod-studio {
     position: absolute;
-    top: 272px;
-    left: 441px;
     background-color: #FFFF;
-}
-
-.section_biography {
-    position: relative;
-    top: 268px;
-    left: 134px;
-}
-
-.biography-subtext {
-    position: absolute;
-    top: 268px;
-    left: 800px;
 }
 
