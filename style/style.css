@@ -3,7 +3,6 @@
     line-height: 1.2;
 }
 
-/* Временно, что-бы не мешались остальный блоки */
 .invisible {
     display: none;
 }
@@ -23,7 +22,7 @@ body {
 }
 
 main {
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -60,6 +59,26 @@ blockquote {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 1065px;
+    max-height: 630px;
+    background-size: cover;
+}
+
+.mod-studio-caption {
+    font-family: Butler, Times, 'Times New Roman', serif;
+    white-space: nowrap;
+    font-size: 5.44rem;
+    font-weight: 300;
+}
+
+.mod-studio-title {
+    position: absolute;
+    font-size: 1.125rem;
+    font-weight: 700;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
 }
 
 .mod-studio {
@@ -67,6 +86,8 @@ blockquote {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 5.5rem;
+    padding: 1.5em 0.8em;
     background-color: #FFFF;
 }
 
