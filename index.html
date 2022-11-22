@@ -14,7 +14,7 @@
     <body>
         <main>
             <!--Navigation-->
-            <nav>
+            <nav class="invisible">
                 <a href="#section_biography">Biography</a><br>
                 <a href="#section_designers">Designers</a><br>
                 <a href="#section_testimonials">Testimonials</a><br>
@@ -22,11 +22,13 @@
             </nav>
             <!--/Navigation-->
             <section>
-                <img src="img/Mod_studio.jpg" alt="Mod Studio">
-                <h1>Mod Studio</h1>
-                <h2>Modern Web Studio</h2>
+                <img src="img/Mod_studio.jpg" alt="Mod Studio" class="picture_mod_studio">
+                <div class="mod-studio">
+                    <h1 class="mod-studio-caption">Mod Studio</h1>
+                    <h2 class="mod-studio-title">Modern Web Studio</h2>
+                </div>
             </section>
-            <section id="section_biography">
+            <section id="section_biography" class="invisible">
                 <!--Biography-->
                 <img src="img/Biographi.jpg" alt="Biography Katya Mills">
                 <h2>Biography</h2>
@@ -40,7 +42,7 @@
                 </blockquote>
                 <!--/Biography-->
             </section>
-            <section id="section_designers" class="info">
+            <section id="section_designers" class="invisible">
                 <!--Designers-->
                 <h2>Designers</h2>
                 <article>
@@ -66,7 +68,7 @@
                 </article>
                 <!--/Designers-->
             </section>
-            <section id="section_testimonials" class="info">
+            <section id="section_testimonials" class="invisible">
                 <!--Testimonials-->
                 <h2>Testimonials</h2>
                 <a href="#"><span>Creativity</span>www.whitepapers.com</a>
@@ -79,7 +81,7 @@
                 <img src="img/Testimonial_bag.jpg" alt="Testimonial bag">
                 <!--/Testimonials-->
             </section>
-            <section id="section_strong_points">
+            <section id="section_strong_points" class="invisible">
                 <!--Strong points-->   
                 <h2>Strong points</h2>
                 <img src="img/Strong_point_table.jpg" alt="Photo of table">
