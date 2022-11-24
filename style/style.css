@@ -7,7 +7,7 @@
     display: none;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -72,13 +72,13 @@ blockquote {
 .mod-studio-caption {
     font-family: Butler, Times, 'Times New Roman', serif;
     white-space: nowrap;
-    font-size: 5.44rem;
+    font-size: 1em;
     font-weight: 300;
 }
 
 .mod-studio-title {
     position: absolute;
-    font-size: 1.125rem;
+    font-size: 0.2em;
     font-weight: 700;
     left: 0;
     right: 0;
