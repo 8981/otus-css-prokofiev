@@ -3,11 +3,34 @@
     line-height: 1.2;
 }
 
+.invisible {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Butler", Georgia, 'Times New Roman', Times, serif;
-    font-size: 700;
+    font-weight: 700;
     font-size: 1rem;
     color: #000;
+    background-color: #FFFF;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 1200px;
 }
 
 h2 {
@@ -26,8 +49,39 @@ blockquote {
     font-weight: 500;
 }
 
-.info {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+.picture_mod_studio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1065px;
+    max-height: 630px;
+    background-size: cover;
+}
+
+.mod-studio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5.5rem;
+    padding: 1.5em 0.8em;
+    background-color: #FFFF;
+}
+
+.mod-studio-caption {
+    font-family: Butler, Times, 'Times New Roman', serif;
+    white-space: nowrap;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.mod-studio-title {
+    position: absolute;
+    font-size: 0.2em;
     font-weight: 700;
+    left: 0;
+    right: 0;
+    text-align: center;   
 }
 
