@@ -39,10 +39,14 @@ h2 {
 }
 
 blockquote {
-    font-family: Butler, Times, 'Times New Roman', serif;
+    font-family: "Butler", Times, 'Times New Roman', serif;
     font-style: normal;
     font-size: 2em;
     font-weight: 200;
+}
+
+.clear::after {
+    clear: both;
 }
 
 .Mils-info {
@@ -94,12 +98,15 @@ blockquote {
     transform: rotate(-90deg);
 }
 
-.block-biography-left {
+.block-biography {
     position: relative;
     float: left;
     width: 50%;
     height: 100%;
-    text-align: right;
+}
+
+.biography-left {
+    overflow: hidden;
 }
 
 .katya-mills-image {
@@ -113,14 +120,6 @@ blockquote {
     top: 50%;
     object-fit: cover;
     transform: translateY(-53.5%);
-}
-
-.block-biography-right {
-    position: relative;
-    float: left;
-    width: 50%;
-    height: 100%;
-    padding-left: 10%;
 }
 
 .katy-mills-blok-right {
