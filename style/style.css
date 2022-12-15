@@ -45,7 +45,9 @@ blockquote {
     font-weight: 200;
 }
 
-.clear::after {
+.clearfix::after {
+    content: ""; 
+    display: block; 
     clear: both;
 }
 
@@ -75,7 +77,7 @@ blockquote {
 }
 
 .mod-studio-caption {
-    font-family: Butler, Times, 'Times New Roman', serif;
+    font-family: "Butler", Times, 'Times New Roman', serif;
     white-space: nowrap;
     font-size: 1em;
     font-weight: 300;
@@ -103,10 +105,19 @@ blockquote {
     float: left;
     width: 50%;
     height: 100%;
+    overflow: hidden;
+}
+
+#section_biography {
+    /* background-color: blue; */
 }
 
 .biography-left {
-    overflow: hidden;
+    /* background-color: yellow; */
+}
+
+.biography-right {
+    /* background-color: green; */
 }
 
 .katya-mills-image {
@@ -126,6 +137,7 @@ blockquote {
     position: absolute;
     top: 52%;
     transform: translateY(-50%);
+    left: 10%;
 }
 
 .katya-section-caption {
