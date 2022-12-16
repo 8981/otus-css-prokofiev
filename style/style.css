@@ -40,9 +40,16 @@ h2 {
 }
 
 blockquote {
-    font-family: "Butler", sans-serif;
+    font-family: "Butler", Times, 'Times New Roman', serif;
     font-style: normal;
+    font-size: 2em;
     font-weight: 200;
+}
+
+.clearfix::after {
+    content: ""; 
+    display: block; 
+    clear: both;
 }
 
 .Mils-info {
@@ -89,3 +96,78 @@ blockquote {
     right: 0;  
 }
 
+.biography-title {
+    position: absolute;
+    right: 38px;
+    bottom: 100px;
+    z-index: 2;
+    transform: rotate(-90deg);
+}
+
+.block-biography {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section_biography {
+    /* background-color: blue; */
+}
+
+.biography-left {
+    /* background-color: yellow; */ 
+}
+
+.biography-right {
+    /* background-color: green; */
+}
+
+.katya-mills-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 553px;
+    max-height: 840px;
+    margin-right: 32px;
+    right: 0px;
+    top: 50%;
+    object-fit: cover;
+    transform: translateY(-53.5%);
+}
+
+.katy-mills-blok-right {
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+    left: 10%;
+}
+
+.katya-section-caption {
+    font-family: Butler, Times, 'Times New Roman', serif;
+    white-space: nowrap;
+    font-size: 5.4em;
+    font-weight: 300;
+    margin-bottom: 36px;
+    width: 4em;
+}
+
+.job-title-skills {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.separator {
+    width: 15px;
+    height: 5px;
+    margin-top: 3.9em;
+    margin-bottom: 2em;
+    background-color: #000;
+    border: none;
+}
+
+.quote-katya {
+    width: 100%;
+    max-width: 13em;
+}
