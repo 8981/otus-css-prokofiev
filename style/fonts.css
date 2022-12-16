@@ -4,9 +4,9 @@
     src: local("Butler UltraLight"),
         local("Butler-UltraLight"),
         local("Butler_UltraLight"),
-        url("Butler-UltraLight.woff2") format("woff2"),
-        url("Butler-UltraLight.woff") format("woff"),
-        url("Butler_UltraLight.otf") format("otf");
+        url("../fonts/Butler-UltraLight.woff2") format("woff2"),
+        url("../fonts/Butler-UltraLight.woff") format("woff"),
+        url("../fonts/Butler_Ultra_Light.otf") format("otf");
 }
 
 @font-face {
@@ -15,9 +15,9 @@
     src: local("Butler Light"),
         local("Butler-Light"),
         local("Butler_Light"),
-        url("Butler-Light.woff2") format("woff2"),
-        url("Butler-Light.woff") format("woff"),
-        url("Butler_Light.otf") format("otf");
+        url("../fonts/Butler-Light.woff2") format("woff2"),
+        url("../fonts/Butler-Light.woff") format("woff"),
+        url("../fonts/Butler_Light.otf") format("otf");
 }
 
 @font-face {
@@ -26,7 +26,7 @@
     src: local("Butler Medium"),
         local("Butler-Medium"),
         local("Butler_Medium"),
-        url("Butler-Medium.woff2") format("woff2"),
-        url("Butler-Medium.woff") format("woff"),
-        url("Butler_Medium.otf") format("otf");
+        url("../fonts/Butler-Medium.woff2") format("woff2"),
+        url("../fonts/Butler-Medium.woff") format("woff"),
+        url("../fonts/Butler_Medium.otf") format("otf");
 }
