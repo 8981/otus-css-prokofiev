@@ -113,7 +113,7 @@ blockquote {
 }
 
 #section_biography {
-    /* background-color: blue; */ 
+    /* background-color: blue; */
 }
 
 .biography-left {
@@ -121,7 +121,7 @@ blockquote {
 }
 
 .biography-right {
-    /* background-color: green; */ 
+    /* background-color: green; */
 }
 
 .katya-mills-image {
@@ -163,11 +163,11 @@ blockquote {
     height: 5px;
     margin-top: 3.9em;
     margin-bottom: 2em;
-    background-color: #000;
+    background-color: #000; 
     border: none;
 }
 
 .quote-katya {
     width: 100%;
-    max-width: 13em;
+    max-width: 13em; 
 }
