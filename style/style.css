@@ -249,5 +249,59 @@ blockquote {
     font-weight: 700;
 }
 
+.testimonials {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 40% 50%;
+    grid-template-rows: 15% 85%;
+    align-items: stretch;
+}
+
+.testimonial-title {
+    grid-column: 2/4;
+    align-self: flex-start;
+    padding: 70px 0 0 0;
+}
+
+.testimonial-links {
+    grid-row: 2/3;
+    max-height: 760px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-link {
+    transform: rotate(-90deg) translateY(50%);
+    align-self: flex-end;
+    height: 40%;
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.link-bold {
+    font-weight: 700;
+}
+
+.testimonial-img-bar {
+    width: 100%;
+    max-width: 500px;
+    max-height: 750px;
+    object-fit: none;
+    overflow: hidden;
+}
+
+.testimonial-blockquote {
+    text-align: center;
+    width: 200px;
+    margin: 2% 0 0 38%;
+}
+
+.testimonial-img-bag {
+    width: 100%;
+    max-width: 220px;
+    object-fit: none;
+    margin: 4% 35% 0 37%;
+}
 
 
