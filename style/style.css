@@ -59,6 +59,11 @@ blockquote {
     clear: both;
 }
 
+.section-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
 .Mils-info {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -252,15 +257,15 @@ blockquote {
 .testimonials {
     width: 100%;
     display: grid;
-    grid-template-columns: 10% 40% 50%;
-    grid-template-rows: 15% 85%;
+    grid-template-columns: 12% 38% 50%;
+    grid-template-rows: 14.66% 85.34%;
     align-items: stretch;
 }
 
 .testimonial-title {
     grid-column: 2/4;
-    align-self: flex-start;
-    padding: 70px 0 0 0;
+    align-self: flex-end;
+    padding: 0 0 46px 0;
 }
 
 .testimonial-links {
@@ -271,6 +276,8 @@ blockquote {
 }
 
 .testimonial-link {
+    /* writing-mode: vertical-rl;
+    text-orientation: sideways-right; */
     transform: rotate(-90deg) translateY(50%);
     align-self: flex-end;
     height: 40%;
@@ -295,6 +302,13 @@ blockquote {
     text-align: center;
     width: 200px;
     margin: 2% 0 0 38%;
+}
+
+@media all and (max-height: 750px) {
+    .testimonial-blockquote {
+        width: 70%;
+        margin-left: 15%;
+    }
 }
 
 .testimonial-img-bag {
