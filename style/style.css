@@ -311,3 +311,64 @@ blockquote {
     }
 }
 
+.strengths {
+    display: block;
+}
+
+.strengths-title {
+    position: absolute;
+    left: 30.5%;
+    top: 154px;
+    transform: rotate(-90deg) translateY(-50%);
+}
+
+.strengths-caption {
+    font-family: Butler, Times, 'Times New Roman', serif;
+    font-size: 5.75rem;
+    font-weight: 300;
+    padding: 10% 0 1% 56%;
+}
+
+.strengths-block {
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.strengths-list {
+    font-family: Butler, Times, 'Times New Roman', serif;
+    font-size: 2.125rem;
+    font-weight: 300;
+    line-height: 1.15; 
+    list-style-type: none;
+}
+
+.strengths-img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1%;
+}
+
+.strengths-list-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 34px 0 0 148px;
+    width: 600px;
+}
+
+@supports (display: flex) {
+
+    .strengths-block {
+      display: flex;
+      flex-direction: row;
+      overflow: auto;
+    }
+  
+    .strengths-img {
+      flex-shrink: 0;
+    }
+  
+    .strengths-item-big {
+      flex-shrink: 0;
+    }
+}
