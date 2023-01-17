@@ -330,7 +330,7 @@ blockquote {
     position: absolute;
     left: 0;
     right: 0;
-    top: -1.5em;
+    top: -1.5em; 
 }
 
 .strengths-block {
@@ -349,7 +349,7 @@ blockquote {
 
 .strengths-list {
     text-align: center;
-    width: 600px;
+    width: 600px; 
 }
 
 .strengths-item-list {
