@@ -38,6 +38,7 @@ section {
     max-height: 1200px;
     display: flex;
     align-items: center;
+    overflow: hidden;
     /* background-color: darkcyan; */
 }
 
@@ -312,7 +313,7 @@ blockquote {
 }
 
 .strengths {
-    display: block;
+     display: block; 
 }
 
 .strengths-title {
@@ -326,34 +327,38 @@ blockquote {
     font-family: Butler, Times, 'Times New Roman', serif;
     font-size: 5.75rem;
     font-weight: 300;
-    padding: 10% 0 1% 56%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.5em;
 }
 
 .strengths-block {
-    overflow-y: hidden;
     white-space: nowrap;
     width: 100%;
+    padding-top: 250px;
+}
+
+.strengths-item {
+    display: inline-block;
+    margin-right: 1%;
+    width: 341px;
+    vertical-align: middle;
+    position: relative;
 }
 
 .strengths-list {
+    text-align: center;
+    width: 600px;
+}
+
+.strengths-item-list {
     font-family: Butler, Times, 'Times New Roman', serif;
     font-size: 2.125rem;
     font-weight: 300;
     line-height: 1.15; 
     list-style-type: none;
-}
-
-.strengths-img {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 1%;
-}
-
-.strengths-list-block {
-    display: inline-block;
-    vertical-align: top;
-    padding: 34px 0 0 148px;
-    width: 600px;
+    text-align: left;
 }
 
 @supports (display: flex) {
