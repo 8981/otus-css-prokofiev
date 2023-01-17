@@ -262,17 +262,17 @@ blockquote {
     align-items: stretch;
 }
 
-.testimonial-title {
+.testimonial-title { 
     grid-column: 2/4;
     align-self: center;
     margin-bottom: -2em;
 }
 
 .testimonial-links {
-    grid-row: 2/3;
+    grid-row: 2/3; 
     max-height: 757px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: space-around;
 }
 
