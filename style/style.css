@@ -38,6 +38,7 @@ section {
     max-height: 1200px;
     display: flex;
     align-items: center;
+    overflow: hidden;
     /* background-color: darkcyan; */
 }
 
@@ -269,7 +270,7 @@ blockquote {
 }
 
 .testimonial-links {
-    grid-row: 2/3;
+    grid-row: 2/3; 
     max-height: 757px;
     display: flex;
     flex-direction: column;
@@ -311,3 +312,68 @@ blockquote {
     }
 }
 
+.strengths {
+     display: block; 
+}
+
+.strengths-title {
+    position: absolute;
+    left: 30.5%;
+    top: 154px;
+    transform: rotate(-90deg) translateY(-50%);
+}
+
+.strengths-caption {
+    font-family: Butler, Times, 'Times New Roman', serif;
+    font-size: 5.75rem;
+    font-weight: 300;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.5em;
+}
+
+.strengths-block {
+    white-space: nowrap;
+    width: 100%;
+    padding-top: 250px;
+}
+
+.strengths-item {
+    display: inline-block;
+    margin-right: 1%;
+    width: 341px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.strengths-list {
+    text-align: center;
+    width: 600px;
+}
+
+.strengths-item-list {
+    font-family: Butler, Times, 'Times New Roman', serif;
+    font-size: 2.125rem;
+    font-weight: 300;
+    line-height: 1.15; 
+    list-style-type: none;
+    text-align: left;
+}
+
+@supports (display: flex) {
+
+    .strengths-block {
+      display: flex;
+      flex-direction: row;
+      overflow: auto;
+    }
+  
+    .strengths-img {
+      flex-shrink: 0;
+    }
+  
+    .strengths-item-big {
+      flex-shrink: 0;
+    }
+}
