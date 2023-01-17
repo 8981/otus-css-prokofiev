@@ -270,7 +270,7 @@ blockquote {
 }
 
 .testimonial-links {
-    grid-row: 2/3;
+    grid-row: 2/3; 
     max-height: 757px;
     display: flex;
     flex-direction: column;
